@@ -31,5 +31,15 @@ final class Comments extends CMSPlugin
         if (!in_array($context, ['com_content.category', 'com_content.article', 'com_content.featured'])) {
             return;
         }
+
+        /**
+         * src="https://utteranc.es/client.js"
+        repo="[ENTER REPO HERE]"
+        issue-term="[ENTER TERM HERE]"
+        theme="gruvbox-dark"
+        crossorigin="anonymous"
+        async
+         */
+
     }
 }
